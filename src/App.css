@@ -1,5 +1,9 @@
 .App {
+  text-align: left;
+}
+.mb-4 {
   text-align: center;
+  text-decoration: underline;
 }
 
 .App-logo {
@@ -35,4 +39,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  background-color: #ffffff; 
+  margin: 0; 
+  font-family: Arial, sans-serif; 
+}
+
+.container {
+  min-height: 100vh; 
+}
+
+.custom-margin {
+  margin-right: 10px; 
 }
